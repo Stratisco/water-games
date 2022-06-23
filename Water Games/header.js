@@ -79,6 +79,12 @@ var pages = {
         'class': null
     },
     
+    'Hummas Server' : {
+        'src': 'http://hummasserver.ddns.net/',
+        'tags': '00010',
+        'class': null
+    },
+    
     'Hacked Asteroid Shooter' : {
         'src': 'hackedAsteroid.html',
         'tags': '00100',
@@ -90,7 +96,20 @@ var pages = {
         'tags': '00001',
         'class': null
         
+    },
+    
+    'Bezier Curve' : {
+        'src': 'bezier.html',
+        'tags': '00001',
+        'class': 'developing'
     }
+    
+/*    '3D display' : {
+        'src': '3d_display.html',
+        'tags': '00101',
+        'class': "developing"
+        
+    }*/
 };
 
 document.write(`<header><ul><li id='home'><a href='home.html'>Home</a></li>`);
